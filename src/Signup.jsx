@@ -4,7 +4,7 @@ import {
 } from "aws-amplify/auth";
 import { useState } from "react";
 
-export const Signup = () => {
+const Signup = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [code, setCode] = useState("");
@@ -72,3 +72,5 @@ export const Signup = () => {
         </div>
     );
 };
+
+export default Signup;
